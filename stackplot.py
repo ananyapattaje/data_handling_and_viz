@@ -6,11 +6,11 @@ arr2  = [17, 30, 22, 14, 17, 17, 29, 22, 30]
 arr3  = [15, 31, 18, 22, 18, 19, 13, 32, 39]
 
 # Adding legend for stack plots is tricky.
-plt.plot([], [], color='r', label = 'D 1')
-plt.plot([], [], color='g', label = 'D 2')
-plt.plot([], [], color='b', label = 'D 3')
+plt.plot([], [], color='y', label = 'D 1')
+plt.plot([], [], color='c', label = 'D 2')
+plt.plot([], [], color='g', label = 'D 3')
 
-plt.stackplot(idxes, arr1, arr2, arr3, colors= ['b', 'r', 'g'])
+plt.stackplot(idxes, arr1, arr2, arr3, colors= ['y', 'c', 'g'])
 plt.title('Stack Plot Example')
 plt.legend()
 plt.show()
